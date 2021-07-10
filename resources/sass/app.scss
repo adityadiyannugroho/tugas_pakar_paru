@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+// Variables
+@import 'variables';
+
+// Fontawesome
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import '@fortawesome/fontawesome-free/scss/brands';
+@import '@fortawesome/fontawesome-free/scss/regular';
+@import '@fortawesome/fontawesome-free/scss/solid';
+@import '@fortawesome/fontawesome-free/scss/v4-shims';
+
+// AdminLTE
+@import 'AdminLTE/AdminLTE.scss';
+
+.cover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 0;
+}
